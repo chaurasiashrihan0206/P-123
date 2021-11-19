@@ -23,9 +23,9 @@ function modelLoaded(){
 
 function draw(){
     background('#FF0000');
+    textSize(difference);
     fill('#00FF00');
-    stroke('#FFFF00');
-    text('Shrihan' , 50 , 400);
+    text('Shrihan' , 100 , 200);
 }
 
 function gotPoses(results){
